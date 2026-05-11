@@ -38,7 +38,7 @@ Before starting, ensure the following are installed on your server:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://your-repository-link.git
+git clone https://github.com/guiruyz/logs-monitoring.git
 cd log-monitoring-system
 ```
 
