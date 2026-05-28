@@ -64,6 +64,7 @@ case $OPCAO in
           --env-file .env \
           -v $(pwd)/agent-config/promtail-config.yaml:/etc/promtail/config.yml \
           -v /var/log:/var/log:ro \
+          -v $(pwd)/agent-data:/tmp \
           grafana/promtail:latest \
           -config.file=/etc/promtail/config.yml \
           -config.expand-env=true
